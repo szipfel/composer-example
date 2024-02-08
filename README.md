@@ -34,6 +34,49 @@ In your source repo for the module or theme, you need to add a composer.json fil
 }
 ```
 
+### Types:
+
+Theme: "type": "drupal-theme",
+Module" "type": "drupal-module",
+
+This works with the section of your composer.json, in your site project:
+
+"type:" dictates where the code will be installed
+
+```
+ "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "web/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "web/profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
+            "web/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        },
+
+```
+
+
 If you use “minimum-stability”: “stable”  then you will need to push a tag in the repo 1.0 or it will fail.
 
 Example fail message:
