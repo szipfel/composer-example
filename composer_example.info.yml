@@ -1,0 +1,5 @@
+name: Composer Example
+description: 'Sample module for composer example.'
+type: module
+core: 8.x
+package: examples

@@ -1,0 +1,27 @@
+{
+	"name": "szipfel/composer-example",
+	"description": "Sample drupal repo for use with composer.",
+	"type": "drupal-module",
+	"homepage": "https://www.drupal.org/sandbox/z1pp3r/2857119",
+	"authors": [{
+		"name": "Steve Zipfel",
+		"homepage": "https://github.com/szipfel/composer-example"
+	}],
+	"support": {
+		"issues": "https://github.com/szipfel/composer-example/issues"
+	},
+	"license": "GPL-2.0+",
+	"repositories": [{
+		"type": "package",
+		"package": {
+			"name": "szipfel/composer-example",
+			"version": "1.0.1",
+			"type": "drupal-module",
+			"source": {
+				"url": "https://github.com/szipfel/compoer-example.git",
+				"type": "git",
+				"reference": "refs/heads/master"
+			}
+		}
+	}]
+}
