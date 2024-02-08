@@ -16,6 +16,7 @@
 		"package": {
 			"name": "szipfel/composer-example",
 			"version": "1.0.1",
+			"stability": "stable",
 			"type": "drupal-module",
 			"source": {
 				"url": "https://github.com/szipfel/compoer-example.git",
