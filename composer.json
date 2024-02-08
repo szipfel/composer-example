@@ -20,7 +20,7 @@
 			"source": {
 				"url": "https://github.com/szipfel/compoer-example.git",
 				"type": "git",
-				"reference": "refs/heads/master"
+				"reference": "refs/heads/main"
 			}
 		}
 	}]
